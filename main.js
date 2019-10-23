@@ -1,4 +1,11 @@
 function slice(string, start = 0, end = string.length) {
+  let newStr = '';
+
+  for (let i = start; i < end; i++) {
+    
+      newStr = newStr + str[i];
+    } 
+    return newStr;
 }
 
 function repeat(str, repetitions) {
