@@ -72,6 +72,10 @@ for (i = 0; i < arr.length; i++){
 if (separator === undefined){
   newArr += str;
 }
+else if (separator.includes(str[i])){
+
+  newArr += 
+}
 
 }
 
